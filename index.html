@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fasion</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- tailwind css link -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -22,6 +23,32 @@
 </head>
 <body>
     <header class="bg-amber-50 pb-32 pt-12">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">About Us</a>
+               </li>
+               <li class="nav-item">
+                <a class="nav-link" href="">Contact Us</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
         <section class="container mx-auto sm:flex items-center justify-around">
            <div class="space-y-4">
             <h1 class="text-2xl sm:text-5xl uppercase font-bold">
@@ -188,6 +215,7 @@
     <footer class="text-center bg-slate-400">
       <p>Buy from us</p>
     </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
